@@ -215,3 +215,5 @@ INSERT INTO payments (order_id, payment_date, amount, method, provider, status, 
 (18, '2026-04-05 13:20:00',  6499000, 'paylater',     'Akulaku',    'success', 'TRX-20260405-018'),
 (19, '2026-05-10 09:50:00', 18999000, 'ewallet',      'OVO',        'success', 'TRX-20260510-019'),
 (20, '2026-06-01 11:05:00', 19499000, 'transfer',     'BCA',        'pending', 'TRX-20260601-020');
+
+
