@@ -257,29 +257,29 @@ INSERT INTO vouchers (voucher_id, voucher_code, discount_percent, expired_date) 
 ('v009', 'WEEKENDSERU',   5, '2026-06-30'),
 ('v010', 'CASHBACKMAX',  11, '2026-10-10');
 
-INSERT INTO orders (user_id, order_date, total_amount, shipping_address, status, voucher_id, notes) VALUES
-(1, '2026-06-01 10:00:00', 12749150.00, 'Keputih Gg 2C, Surabaya',  'delivered', 'v001', 'Kirim ke kosan h-1 quiz'),
-(2, '2026-06-02 11:30:00', 19499000.00, 'Keputih Tegal, Surabaya',  'shipped',   NULL,   'Bungkus ekstra bubble wrap'),
-(3, '2026-06-03 14:15:00', 20239080.00, 'Gebang Putih, Surabaya',   'confirmed', 'v004', 'Warna Natural Titanium ya'),
-(4, '2026-06-04 09:00:00', 16499000.00, 'Mulyosari B-12, Surabaya', 'pending',   NULL,   'Mohon segera diproses'),
-(5, '2026-06-04 16:30:00', 17599120.00, 'Keputih Gg 2C, Surabaya',  'delivered', 'v005', 'Jangan dibanting, barang pecah belah'),
-(2, '2026-06-05 13:00:00', 17999000.00, 'Keputih Tegal, Surabaya',  'confirmed', NULL,   NULL),
-(3, '2026-06-05 19:45:00', 13949070.00, 'Gebang Putih, Surabaya',   'pending',   'v006', NULL),
-(4, '2026-06-06 10:20:00',  1799000.00, 'Mulyosari B-12, Surabaya', 'cancelled', NULL,   'Salah pilih varian warna'),
-(1, '2026-06-06 21:00:00', 14559090.00, 'Keputih Gg 2C, Surabaya',  'pending',   'v008', 'Kirim pakai gosend instant jika bisa'),
-(2, '2026-06-07 08:15:00',  2799000.00, 'Keputih Tegal, Surabaya',  'delivered', NULL,   'Untuk hadiah adik');
+INSERT INTO orders (order_date, total_amount, shipping_address, status, voucher_id, notes) VALUES
+('2026-06-01 10:00:00', 12749150.00, 'Keputih Gg 2C, Surabaya',  'delivered', 'v001', 'Kirim ke kosan h-1 quiz'),
+('2026-06-02 11:30:00', 19499000.00, 'Keputih Tegal, Surabaya',  'shipped',   NULL,   'Bungkus ekstra bubble wrap'),
+('2026-06-03 14:15:00', 20239080.00, 'Gebang Putih, Surabaya',   'confirmed', 'v004', 'Warna Natural Titanium ya'),
+('2026-06-04 09:00:00', 16499000.00, 'Mulyosari B-12, Surabaya', 'pending',   NULL,   'Mohon segera diproses'),
+('2026-06-04 16:30:00', 17599120.00, 'Keputih Gg 2C, Surabaya',  'delivered', 'v005', 'Jangan dibanting, barang pecah belah'),
+('2026-06-05 13:00:00', 17999000.00, 'Keputih Tegal, Surabaya',  'confirmed', NULL,   NULL),
+('2026-06-05 19:45:00', 13949070.00, 'Gebang Putih, Surabaya',   'pending',   'v006', NULL),
+('2026-06-06 10:20:00',  1799000.00, 'Mulyosari B-12, Surabaya', 'cancelled', NULL,   'Salah pilih varian warna'),
+('2026-06-06 21:00:00', 14559090.00, 'Keputih Gg 2C, Surabaya',  'pending',   'v008', 'Kirim pakai gosend instant jika bisa'),
+('2026-06-07 08:15:00',  2799000.00, 'Keputih Tegal, Surabaya',  'delivered', NULL,   'Untuk hadiah adik');
 
-INSERT INTO order_details (order_id, variant_id, quantity, unit_price) VALUES
-(1,  1,  1, 14999000.00),  -- iPhone 16 Black
-(2,  6,  1, 19499000.00),  -- iPhone 16 Pro Black Titanium
-(3,  9,  1, 21999000.00),  -- iPhone 16 Pro Max Black Titanium
-(4,  13, 1, 16499000.00),  -- iPhone 17 Midnight
-(5,  29, 1, 19999000.00),  -- Galaxy S25 Ultra Titanium Black
-(6,  43, 1, 17999000.00),  -- Galaxy S26+ Neo Mint
-(7,  61, 1, 14999000.00),  -- Xiaomi 15 Pro Black
-(8,  55, 1,  1799000.00),  -- Galaxy A06 5G Black
-(9,  63, 1, 15999000.00),  -- Xiaomi 15S Pro Titanium Black
-(10, 49, 1,  2799000.00);  -- Galaxy A16 5G Black
+INSERT INTO order_details (order_id, user_id, variant_id, quantity, unit_price) VALUES
+(1,  1, 1,  1, 14999000.00),
+(2,  2, 6,  1, 19499000.00),
+(3,  3, 9,  1, 21999000.00),
+(4,  4, 13, 1, 16499000.00),
+(5,  5, 29, 1, 19999000.00),
+(6,  2, 43, 1, 17999000.00),
+(7,  3, 61, 1, 14999000.00),
+(8,  4, 55, 1,  1799000.00),
+(9,  1, 63, 1, 15999000.00),
+(10, 2, 49, 1,  2799000.00);
 
 INSERT INTO payments (order_id, payment_date, amount, payment_type, method, status, transaction_ref, paid_at) VALUES
 (1,  '2026-06-01 10:05:00', 12749150.00, 'full', 'ewallet',     'success', 'TX-ITS-101', '2026-06-01 10:06:00'),

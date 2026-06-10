@@ -75,25 +75,25 @@ CREATE TABLE vouchers (
 
 CREATE TABLE orders (
     order_id        INT             NOT NULL PRIMARY KEY AUTO_INCREMENT,
-    user_id         INT             NOT NULL,
     order_date      DATETIME        NOT NULL DEFAULT CURRENT_TIMESTAMP,
     total_amount    DECIMAL(15,2)   NOT NULL,
     shipping_address TEXT           NOT NULL,
     status          ENUM('pending','confirmed','shipped','delivered','cancelled') DEFAULT 'pending',
     voucher_id      CHAR(4),
     notes           TEXT,
-    FOREIGN KEY (user_id)    REFERENCES users(user_id),
     FOREIGN KEY (voucher_id) REFERENCES vouchers(voucher_id)
 );
 
 CREATE TABLE order_details (
     detail_id       INT             NOT NULL PRIMARY KEY AUTO_INCREMENT,
     order_id        INT             NOT NULL,
+    user_id         INT             NOT NULL,
     variant_id      INT             NOT NULL,
     quantity        INT             NOT NULL DEFAULT 1,
     unit_price      DECIMAL(15,2)   NOT NULL,
     subtotal        DECIMAL(15,2)   GENERATED ALWAYS AS (quantity * unit_price) STORED,
     FOREIGN KEY (order_id)   REFERENCES orders(order_id),
+    FOREIGN KEY (user_id)    REFERENCES users(user_id),
     FOREIGN KEY (variant_id) REFERENCES product_variants(variant_id)
 );
 
@@ -272,11 +272,11 @@ DELIMITER ;
 DELIMITER $$
 
 CREATE TRIGGER trg_order_log
-AFTER INSERT ON orders
+AFTER INSERT ON order_details
 FOR EACH ROW
 BEGIN
     INSERT INTO activity_log(user_id, activity)
-    VALUES(NEW.user_id, 'Membuat pesanan baru');
+    VALUES(NEW.user_id, CONCAT('Membuat pesanan baru, order_id: ', NEW.order_id));
 END$$
 
 DELIMITER ;
@@ -320,6 +320,22 @@ END$$
 
 DELIMITER ;
 
+DELIMITER $$
+
+CREATE TRIGGER trg_cancel_order_on_failed_payment
+AFTER UPDATE ON payments
+FOR EACH ROW
+BEGIN
+    IF NEW.status = 'failed' AND OLD.status != 'failed' THEN
+        UPDATE orders
+        SET status = 'cancelled'
+        WHERE order_id = NEW.order_id
+          AND status NOT IN ('delivered', 'cancelled');
+    END IF;
+END$$
+
+DELIMITER ;
+
 CREATE VIEW stock_summary AS
 SELECT
     p.product_id,
@@ -339,7 +355,7 @@ CREATE INDEX idx_products_category    ON products(category_id);
 CREATE INDEX idx_products_year        ON products(release_year);
 CREATE INDEX idx_variants_product     ON product_variants(product_id);
 CREATE INDEX idx_variants_color       ON product_variants(color);
-CREATE INDEX idx_orders_user          ON orders(user_id);
 CREATE INDEX idx_orders_status        ON orders(status);
 CREATE INDEX idx_order_details_ord    ON order_details(order_id);
 CREATE INDEX idx_order_details_var    ON order_details(variant_id);
+CREATE INDEX idx_order_details_user   ON order_details(user_id); 
