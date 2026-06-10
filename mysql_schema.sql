@@ -19,7 +19,7 @@ CREATE TABLE categories (
 );
 
 CREATE TABLE products (
-    product_id      CHAR(4)         NOT NULL PRIMARY KEY,
+    product_id      CHAR(5)         NOT NULL PRIMARY KEY,
     brand_id        CHAR(4)         NOT NULL,
     category_id     CHAR(4)         NOT NULL,
     product_name    VARCHAR(150)    NOT NULL,
@@ -33,7 +33,7 @@ CREATE TABLE products (
 
 CREATE TABLE product_specs (
     spec_id         INT             AUTO_INCREMENT PRIMARY KEY,
-    product_id      CHAR(4)         NOT NULL,
+    product_id      CHAR(5)         NOT NULL,
     model_number    VARCHAR(50),
     display_inch    VARCHAR(50)     NOT NULL,
     chipset         VARCHAR(50)     NOT NULL,
@@ -44,7 +44,7 @@ CREATE TABLE product_specs (
 
 CREATE TABLE product_variants (
     variant_id      INT             AUTO_INCREMENT PRIMARY KEY,
-    product_id      CHAR(4)         NOT NULL,
+    product_id      CHAR(5)         NOT NULL,
     color           VARCHAR(50)     NOT NULL,
     ram             VARCHAR(20)     NOT NULL,
     storage         VARCHAR(20)     NOT NULL,
@@ -184,7 +184,7 @@ CREATE TABLE paylater_payments (
 
 CREATE TABLE reviews (
     review_id       INT             AUTO_INCREMENT PRIMARY KEY,
-    product_id      CHAR(4),
+    product_id      CHAR(5),
     user_id         INT,
     rating          INT             CHECK (rating >= 1 AND rating <= 5),
     comment         TEXT,
@@ -210,6 +210,27 @@ BEGIN
     UPDATE product_variants
     SET stock = stock - NEW.quantity
     WHERE variant_id = NEW.variant_id;
+END$$
+
+DELIMITER ;
+
+DELIMITER $$
+
+CREATE TRIGGER trg_check_stock
+BEFORE INSERT ON order_details
+FOR EACH ROW
+BEGIN
+    DECLARE current_stock INT;
+
+    SELECT stock
+    INTO current_stock
+    FROM product_variants
+    WHERE variant_id = NEW.variant_id;
+
+    IF current_stock < NEW.quantity THEN
+        SIGNAL SQLSTATE '45000'
+        SET MESSAGE_TEXT = 'Stock tidak mencukupi';
+    END IF;
 END$$
 
 DELIMITER ;
