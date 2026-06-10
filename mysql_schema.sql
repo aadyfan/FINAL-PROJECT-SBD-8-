@@ -51,7 +51,7 @@ CREATE TABLE users (
     full_name       VARCHAR(100)    NOT NULL,
     email           VARCHAR(100)    NOT NULL UNIQUE,
     phone           VARCHAR(20),
-    password_hash   VARCHAR(255)    NOT NULL,
+    password        VARCHAR(50)    NOT NULL,
     address         TEXT,
     city            VARCHAR(50),
     province        VARCHAR(50),
@@ -149,6 +149,42 @@ BEGIN
     UPDATE products
     SET stock = stock - NEW.quantity
     WHERE product_id = NEW.product_id;
+END$$
+
+DELIMITER ;
+
+DELIMITER $$
+
+CREATE TRIGGER trg_restore_stock_on_cancel
+AFTER UPDATE ON orders
+FOR EACH ROW
+BEGIN
+    IF NEW.status = 'cancelled' AND OLD.status != 'cancelled' THEN
+        UPDATE products p
+        JOIN order_details od ON p.product_id = od.product_id
+        SET p.stock = p.stock + od.quantity
+        WHERE od.order_id = NEW.order_id;
+    END IF;
+END$$
+
+DELIMITER ;
+
+DELIMITER $$
+
+CREATE TRIGGER trg_apply_voucher_discount
+BEFORE INSERT ON orders
+FOR EACH ROW
+BEGIN
+    DECLARE v_discount INT DEFAULT 0;
+
+    IF NEW.voucher_id IS NOT NULL THEN
+        SELECT discount_percent INTO v_discount
+        FROM vouchers
+        WHERE voucher_id = NEW.voucher_id
+          AND expired_date >= CURDATE();
+
+        SET NEW.total_amount = NEW.total_amount * (1 - v_discount / 100);
+    END IF;
 END$$
 
 DELIMITER ;
