@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="760" viewBox="0 0 900 760">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f8fafc"/><stop offset="0.55" stop-color="#ffffff"/><stop offset="1" stop-color="#cbd5e1"/></linearGradient>
+<linearGradient id="screenApple" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#64748b"/><stop offset="0.55" stop-color="#334155"/><stop offset="1" stop-color="#f0abfc"/></linearGradient>
+<linearGradient id="shine" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="0.45" stop-color="#ffffff" stop-opacity=".26"/><stop offset="1" stop-color="#000000" stop-opacity=".18"/></linearGradient>
+<filter id="shadow" x="-35%" y="-35%" width="180%" height="185%"><feDropShadow dx="0" dy="34" stdDeviation="26" flood-color="#0f172a" flood-opacity="0.28"/></filter>
+<filter id="shadowSoft" x="-35%" y="-35%" width="180%" height="185%"><feDropShadow dx="0" dy="28" stdDeviation="22" flood-color="#0f172a" flood-opacity="0.20"/></filter>
+</defs>
+<rect width="900" height="760" fill="url(#bg)"/>
+<circle cx="760" cy="118" r="165" fill="#334155" opacity="0.13"/>
+<circle cx="126" cy="642" r="215" fill="#111827" opacity="0.12"/>
+<path d="M80 96 C210 16, 318 84, 444 44 S682 48, 826 12" fill="none" stroke="#334155" stroke-opacity=".14" stroke-width="42" stroke-linecap="round"/>
+<rect x="62" y="586" width="220" height="38" rx="19" fill="#ffffff" opacity=".65"/>
+<rect x="74" y="638" width="160" height="18" rx="9" fill="#334155" opacity=".20"/>
+<rect x="688" y="594" width="120" height="18" rx="9" fill="#64748b" opacity=".08"/>
+<rect x="260" y="118" width="185" height="445" rx="42" fill="#bfdbfe" filter="url(#shadowSoft)" stroke="#cbd5e1" stroke-width="3"/><rect x="272" y="130" width="161" height="421" rx="31" fill="url(#shine)" opacity="0.28" /><rect x="280.35" y="153.6" width="49.95" height="57.35" rx="20" fill="#111827" opacity="0.18" /><rect x="285.35" y="158.6" width="39.95" height="47.35" rx="16" fill="#f8fafc" opacity="0.18" /><circle cx="305.32500000000005" cy="182.275" r="9.62" fill="#020617"/><circle cx="305.32500000000005" cy="182.275" r="5.579599999999999" fill="#111827"/><circle cx="303.59340000000003" cy="180.1586" r="1.7315999999999998" fill="#ffffff" opacity="0.68"/><circle cx="307.249" cy="184.3914" r="2.6936" fill="#334155" opacity="0.55"/><ellipse cx="352.5" cy="353.85" rx="8.325" ry="11.1" fill="#0f172a" opacity=".20"/><rect x="455" y="160" width="16" height="361" rx="8" fill="#bfdbfe" opacity=".86"/><rect x="440" y="150" width="170.20000000000002" height="409.40000000000003" rx="36" fill="#020617" filter="url(#shadow)" stroke="#e2e8f0" stroke-width="3"/><rect x="448" y="158" width="154.20000000000002" height="393.40000000000003" rx="28" fill="#f8fafc" /><rect x="458" y="178" width="134.20000000000002" height="351.40000000000003" rx="22" fill="url(#screenApple)" /><rect x="501.3" y="168.4" width="47.7" height="14.3" rx="7.4" fill="#020617" opacity=".9"/><path d="M482 444.76800000000003 C487.656 383.358, 545.524 502.084, 570.2 412.016" fill="none" stroke="#ffffff" stroke-opacity=".5" stroke-width="6" stroke-linecap="round"/><circle cx="479.146" cy="264.632" r="22.126" fill="#ffffff" opacity=".18"/><circle cx="562.544" cy="321.948" r="30.636000000000003" fill="#ffffff" opacity=".12"/>
+<g font-family="Inter,Arial,sans-serif" opacity=".90">
+<rect x="640" y="80" width="198" height="74" rx="24" fill="#ffffff" opacity=".72"/>
+<text x="666" y="112" font-size="14" font-weight="900" fill="#475569">CAMERA</text>
+<text x="666" y="137" font-size="17" font-weight="900" fill="#0f172a">48MP Single</text>
+<rect x="64" y="136" width="198" height="74" rx="24" fill="#ffffff" opacity=".72"/>
+<text x="90" y="168" font-size="14" font-weight="900" fill="#475569">DISPLAY</text>
+<text x="90" y="193" font-size="17" font-weight="900" fill="#0f172a">6.6 inch Ultra Thin </text>
+</g>
+
+<g font-family="Inter,Arial,sans-serif">
+<text x="58" y="70" font-size="20" font-weight="900" fill="#0f172a" opacity=".78">Apple</text>
+<text x="58" y="99" font-size="16" font-weight="800" fill="#64748b">Flagship • 2025</text>
+<text x="450" y="660" text-anchor="middle" font-size="28" font-weight="900" fill="#0f172a">Apple iPhone 17 Air</text>
+<text x="450" y="696" text-anchor="middle" font-size="18" font-weight="800" fill="#64748b">Mulai Rp19,0 jt</text>
+</g>
+</svg>

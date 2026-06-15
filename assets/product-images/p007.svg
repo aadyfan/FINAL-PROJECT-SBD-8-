@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="760" viewBox="0 0 900 760">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f8fafc"/><stop offset="0.55" stop-color="#ffffff"/><stop offset="1" stop-color="#cbd5e1"/></linearGradient>
+<linearGradient id="screenApple" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#64748b"/><stop offset="0.55" stop-color="#334155"/><stop offset="1" stop-color="#f0abfc"/></linearGradient>
+<linearGradient id="shine" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="0.45" stop-color="#ffffff" stop-opacity=".26"/><stop offset="1" stop-color="#000000" stop-opacity=".18"/></linearGradient>
+<filter id="shadow" x="-35%" y="-35%" width="180%" height="185%"><feDropShadow dx="0" dy="34" stdDeviation="26" flood-color="#0f172a" flood-opacity="0.28"/></filter>
+<filter id="shadowSoft" x="-35%" y="-35%" width="180%" height="185%"><feDropShadow dx="0" dy="28" stdDeviation="22" flood-color="#0f172a" flood-opacity="0.20"/></filter>
+</defs>
+<rect width="900" height="760" fill="url(#bg)"/>
+<circle cx="760" cy="118" r="165" fill="#334155" opacity="0.13"/>
+<circle cx="126" cy="642" r="215" fill="#111827" opacity="0.12"/>
+<path d="M80 96 C210 16, 318 84, 444 44 S682 48, 826 12" fill="none" stroke="#334155" stroke-opacity=".14" stroke-width="42" stroke-linecap="round"/>
+<rect x="62" y="586" width="220" height="38" rx="19" fill="#ffffff" opacity=".65"/>
+<rect x="74" y="638" width="160" height="18" rx="9" fill="#334155" opacity=".20"/>
+<rect x="688" y="594" width="120" height="18" rx="9" fill="#64748b" opacity=".08"/>
+<rect x="260" y="118" width="225" height="455" rx="42" fill="#92400e" filter="url(#shadowSoft)" stroke="#cbd5e1" stroke-width="3"/><rect x="272" y="130" width="201" height="431" rx="31" fill="url(#shine)" opacity="0.28" /><rect x="284.75" y="154.4" width="76.5" height="76.5" rx="20" fill="#111827" opacity="0.18" /><rect x="289.75" y="159.4" width="66.5" height="66.5" rx="16" fill="#f8fafc" opacity="0.18" /><circle cx="310.76" cy="178.88" r="11.7" fill="#020617"/><circle cx="310.76" cy="178.88" r="6.785999999999999" fill="#111827"/><circle cx="308.654" cy="176.30599999999998" r="2.106" fill="#ffffff" opacity="0.68"/><circle cx="313.09999999999997" cy="181.454" r="3.2760000000000002" fill="#334155" opacity="0.55"/><circle cx="335.24" cy="178.88" r="11.7" fill="#020617"/><circle cx="335.24" cy="178.88" r="6.785999999999999" fill="#111827"/><circle cx="333.134" cy="176.30599999999998" r="2.106" fill="#ffffff" opacity="0.68"/><circle cx="337.58" cy="181.454" r="3.2760000000000002" fill="#334155" opacity="0.55"/><circle cx="323.0" cy="205.655" r="11.7" fill="#020617"/><circle cx="323.0" cy="205.655" r="6.785999999999999" fill="#111827"/><circle cx="320.894" cy="203.081" r="2.106" fill="#ffffff" opacity="0.68"/><circle cx="325.34" cy="208.229" r="3.2760000000000002" fill="#334155" opacity="0.55"/><circle cx="339.83" cy="206.42000000000002" r="4.2749999999999995" fill="#fef3c7" opacity="0.85"/><ellipse cx="372.5" cy="359.15" rx="10.125" ry="13.5" fill="#ffffff" opacity=".20"/><rect x="440" y="150" width="207.0" height="418.6" rx="36" fill="#020617" filter="url(#shadow)" stroke="#e2e8f0" stroke-width="3"/><rect x="448" y="158" width="191.0" height="402.6" rx="28" fill="#f8fafc" /><rect x="458" y="178" width="171.0" height="360.6" rx="22" fill="url(#screenApple)" /><rect x="514.5" y="168.8" width="58.0" height="14.7" rx="7.5" fill="#020617" opacity=".9"/><path d="M482 451.392 C497.96000000000004 388.602, 568.34 509.99600000000004, 607.0 417.904" fill="none" stroke="#ffffff" stroke-opacity=".5" stroke-width="6" stroke-linecap="round"/><circle cx="487.61" cy="267.208" r="26.91" fill="#ffffff" opacity=".18"/><circle cx="589.04" cy="325.812" r="37.26" fill="#ffffff" opacity=".12"/>
+<g font-family="Inter,Arial,sans-serif" opacity=".90">
+<rect x="640" y="80" width="198" height="74" rx="24" fill="#ffffff" opacity=".72"/>
+<text x="666" y="112" font-size="14" font-weight="900" fill="#475569">CAMERA</text>
+<text x="666" y="137" font-size="17" font-weight="900" fill="#0f172a">48MP + 48MP + 48MP</text>
+<rect x="64" y="136" width="198" height="74" rx="24" fill="#ffffff" opacity=".72"/>
+<text x="90" y="168" font-size="14" font-weight="900" fill="#475569">DISPLAY</text>
+<text x="90" y="193" font-size="17" font-weight="900" fill="#0f172a">6.9 inch ProMotion O</text>
+</g>
+
+<g font-family="Inter,Arial,sans-serif">
+<text x="58" y="70" font-size="20" font-weight="900" fill="#0f172a" opacity=".78">Apple</text>
+<text x="58" y="99" font-size="16" font-weight="800" fill="#64748b">Flagship • 2025</text>
+<text x="450" y="660" text-anchor="middle" font-size="28" font-weight="900" fill="#0f172a">Apple iPhone 17 Pro Max</text>
+<text x="450" y="696" text-anchor="middle" font-size="18" font-weight="800" fill="#64748b">Mulai Rp25,0 jt</text>
+</g>
+</svg>

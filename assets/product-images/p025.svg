@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="760" viewBox="0 0 900 760">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff7ed"/><stop offset="0.55" stop-color="#ffffff"/><stop offset="1" stop-color="#ffedd5"/></linearGradient>
+<linearGradient id="screenXiaomi" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#111827"/><stop offset="0.55" stop-color="#f97316"/><stop offset="1" stop-color="#facc15"/></linearGradient>
+<linearGradient id="shine" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="0.45" stop-color="#ffffff" stop-opacity=".26"/><stop offset="1" stop-color="#000000" stop-opacity=".18"/></linearGradient>
+<filter id="shadow" x="-35%" y="-35%" width="180%" height="185%"><feDropShadow dx="0" dy="34" stdDeviation="26" flood-color="#0f172a" flood-opacity="0.28"/></filter>
+<filter id="shadowSoft" x="-35%" y="-35%" width="180%" height="185%"><feDropShadow dx="0" dy="28" stdDeviation="22" flood-color="#0f172a" flood-opacity="0.20"/></filter>
+</defs>
+<rect width="900" height="760" fill="url(#bg)"/>
+<circle cx="760" cy="118" r="165" fill="#f97316" opacity="0.13"/>
+<circle cx="126" cy="642" r="215" fill="#fb923c" opacity="0.12"/>
+<path d="M80 96 C210 16, 318 84, 444 44 S682 48, 826 12" fill="none" stroke="#f97316" stroke-opacity=".14" stroke-width="42" stroke-linecap="round"/>
+<rect x="62" y="586" width="220" height="38" rx="19" fill="#ffffff" opacity=".65"/>
+<rect x="74" y="638" width="160" height="18" rx="9" fill="#f97316" opacity=".20"/>
+<rect x="688" y="594" width="120" height="18" rx="9" fill="#111827" opacity=".08"/>
+<rect x="260" y="118" width="215" height="440" rx="40" fill="#bae6fd" filter="url(#shadowSoft)" stroke="#cbd5e1" stroke-width="3"/><rect x="272" y="130" width="191" height="416" rx="30" fill="url(#shine)" opacity="0.22" /><circle cx="367.5" cy="223.6" r="40.85" fill="#020617" opacity="0.86"/><circle cx="367.5" cy="223.6" r="34.4" fill="#f8fafc" opacity="0.1"/><circle cx="367.5" cy="207.475" r="9.89" fill="#020617"/><circle cx="367.5" cy="207.475" r="5.7362" fill="#111827"/><circle cx="365.7198" cy="205.29919999999998" r="1.7802" fill="#ffffff" opacity="0.68"/><circle cx="369.478" cy="209.6508" r="2.7692000000000005" fill="#f97316" opacity="0.55"/><circle cx="381.46465963602407" cy="231.6625" r="9.89" fill="#020617"/><circle cx="381.46465963602407" cy="231.6625" r="5.7362" fill="#111827"/><circle cx="379.6844596360241" cy="229.48669999999998" r="1.7802" fill="#ffffff" opacity="0.68"/><circle cx="383.4426596360241" cy="233.8383" r="2.7692000000000005" fill="#f97316" opacity="0.55"/><circle cx="353.53534036397593" cy="231.6625" r="9.89" fill="#020617"/><circle cx="353.53534036397593" cy="231.6625" r="5.7362" fill="#111827"/><circle cx="351.75514036397595" cy="229.48669999999998" r="1.7802" fill="#ffffff" opacity="0.68"/><circle cx="355.51334036397594" cy="233.8383" r="2.7692000000000005" fill="#f97316" opacity="0.55"/><circle cx="367.5" cy="223.6" r="5.16" fill="#fef3c7" opacity="0.82"/><rect x="440" y="150" width="197.8" height="404.8" rx="34" fill="#020617" filter="url(#shadow)" stroke="#e2e8f0" stroke-width="3"/><rect x="448" y="158" width="181.8" height="388.8" rx="26" fill="#f8fafc" /><rect x="458" y="178" width="161.8" height="346.8" rx="20" fill="url(#screenXiaomi)" /><circle cx="538.9" cy="175.0976" r="4.3516" fill="#020617" opacity="0.85"/><path d="M482 441.456 C495.384 380.736, 562.636 498.128, 597.8 409.072" fill="none" stroke="#ffffff" stroke-opacity=".5" stroke-width="6" stroke-linecap="round"/><circle cx="485.494" cy="263.344" r="25.714000000000002" fill="#ffffff" opacity=".18"/><circle cx="582.4159999999999" cy="320.01599999999996" r="35.604" fill="#ffffff" opacity=".12"/>
+<g font-family="Inter,Arial,sans-serif" opacity=".90">
+<rect x="640" y="80" width="198" height="74" rx="24" fill="#ffffff" opacity=".72"/>
+<text x="666" y="112" font-size="14" font-weight="900" fill="#475569">CAMERA</text>
+<text x="666" y="137" font-size="17" font-weight="900" fill="#0f172a">200MP + 8MP + 2MP</text>
+<rect x="64" y="136" width="198" height="74" rx="24" fill="#ffffff" opacity=".72"/>
+<text x="90" y="168" font-size="14" font-weight="900" fill="#475569">DISPLAY</text>
+<text x="90" y="193" font-size="17" font-weight="900" fill="#0f172a">6.67 inch AMOLED 1.5</text>
+</g>
+
+<g font-family="Inter,Arial,sans-serif">
+<text x="58" y="70" font-size="20" font-weight="900" fill="#0f172a" opacity=".78">Xiaomi</text>
+<text x="58" y="99" font-size="16" font-weight="800" fill="#64748b">Mid-range • 2026</text>
+<text x="450" y="660" text-anchor="middle" font-size="28" font-weight="900" fill="#0f172a">Xiaomi Redmi Note 15 Pro 5G</text>
+<text x="450" y="696" text-anchor="middle" font-size="18" font-weight="800" fill="#64748b">Mulai Rp4,5 jt</text>
+</g>
+</svg>

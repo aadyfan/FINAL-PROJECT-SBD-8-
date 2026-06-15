@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="760" viewBox="0 0 900 760">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ecfdf5"/><stop offset="0.55" stop-color="#ffffff"/><stop offset="1" stop-color="#d1fae5"/></linearGradient>
+<linearGradient id="screenOPPO" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#111827"/><stop offset="0.55" stop-color="#10b981"/><stop offset="1" stop-color="#14b8a6"/></linearGradient>
+<linearGradient id="shine" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="0.45" stop-color="#ffffff" stop-opacity=".26"/><stop offset="1" stop-color="#000000" stop-opacity=".18"/></linearGradient>
+<filter id="shadow" x="-35%" y="-35%" width="180%" height="185%"><feDropShadow dx="0" dy="34" stdDeviation="26" flood-color="#0f172a" flood-opacity="0.28"/></filter>
+<filter id="shadowSoft" x="-35%" y="-35%" width="180%" height="185%"><feDropShadow dx="0" dy="28" stdDeviation="22" flood-color="#0f172a" flood-opacity="0.20"/></filter>
+</defs>
+<rect width="900" height="760" fill="url(#bg)"/>
+<circle cx="760" cy="118" r="165" fill="#10b981" opacity="0.13"/>
+<circle cx="126" cy="642" r="215" fill="#34d399" opacity="0.12"/>
+<path d="M80 96 C210 16, 318 84, 444 44 S682 48, 826 12" fill="none" stroke="#10b981" stroke-opacity=".14" stroke-width="42" stroke-linecap="round"/>
+<rect x="62" y="586" width="220" height="38" rx="19" fill="#ffffff" opacity=".65"/>
+<rect x="74" y="638" width="160" height="18" rx="9" fill="#10b981" opacity=".20"/>
+<rect x="688" y="594" width="120" height="18" rx="9" fill="#111827" opacity=".08"/>
+<rect x="260" y="118" width="225" height="455" rx="42" fill="#111827" filter="url(#shadowSoft)" stroke="#cbd5e1" stroke-width="3"/><rect x="272" y="130" width="201" height="431" rx="32" fill="url(#shine)" opacity="0.23" /><circle cx="372.5" cy="213.55" r="38.25" fill="#020617" opacity="0.86"/><circle cx="369.7650412017459" cy="198.03927789005775" r="9.450000000000001" fill="#020617"/><circle cx="369.7650412017459" cy="198.03927789005775" r="5.481" fill="#111827"/><circle cx="368.06404120174585" cy="195.96027789005774" r="1.701" fill="#ffffff" opacity="0.68"/><circle cx="371.65504120174586" cy="200.11827789005775" r="2.6460000000000004" fill="#10b981" opacity="0.55"/><circle cx="387.30015877737804" cy="218.9368172573793" r="9.450000000000001" fill="#020617"/><circle cx="387.30015877737804" cy="218.9368172573793" r="5.481" fill="#111827"/><circle cx="385.599158777378" cy="216.85781725737928" r="1.701" fill="#ffffff" opacity="0.68"/><circle cx="389.19015877737803" cy="221.0158172573793" r="2.6460000000000004" fill="#10b981" opacity="0.55"/><circle cx="360.4348000208761" cy="223.673904852563" r="9.450000000000001" fill="#020617"/><circle cx="360.4348000208761" cy="223.673904852563" r="5.481" fill="#111827"/><circle cx="358.73380002087606" cy="221.594904852563" r="1.701" fill="#ffffff" opacity="0.68"/><circle cx="362.32480002087607" cy="225.752904852563" r="2.6460000000000004" fill="#10b981" opacity="0.55"/><circle cx="372.5" cy="229.3" r="9.450000000000001" fill="#020617"/><circle cx="372.5" cy="229.3" r="5.481" fill="#111827"/><circle cx="370.799" cy="227.221" r="1.701" fill="#ffffff" opacity="0.68"/><circle cx="374.39" cy="231.37900000000002" r="2.6460000000000004" fill="#10b981" opacity="0.55"/><rect x="440" y="150" width="207.0" height="418.6" rx="36" fill="#020617" filter="url(#shadow)" stroke="#e2e8f0" stroke-width="3"/><rect x="448" y="158" width="191.0" height="402.6" rx="28" fill="#f8fafc" /><rect x="458" y="178" width="171.0" height="360.6" rx="22" fill="url(#screenOPPO)" /><circle cx="543.5" cy="175.9532" r="4.553999999999999" fill="#020617" opacity="0.85"/><path d="M482 451.392 C497.96000000000004 388.602, 568.34 509.99600000000004, 607.0 417.904" fill="none" stroke="#ffffff" stroke-opacity=".5" stroke-width="6" stroke-linecap="round"/><circle cx="487.61" cy="267.208" r="26.91" fill="#ffffff" opacity=".18"/><circle cx="589.04" cy="325.812" r="37.26" fill="#ffffff" opacity=".12"/>
+<g font-family="Inter,Arial,sans-serif" opacity=".90">
+<rect x="640" y="80" width="198" height="74" rx="24" fill="#ffffff" opacity=".72"/>
+<text x="666" y="112" font-size="14" font-weight="900" fill="#475569">CAMERA</text>
+<text x="666" y="137" font-size="17" font-weight="900" fill="#0f172a">50MP Quad Hasselblad</text>
+<rect x="64" y="136" width="198" height="74" rx="24" fill="#ffffff" opacity=".72"/>
+<text x="90" y="168" font-size="14" font-weight="900" fill="#475569">DISPLAY</text>
+<text x="90" y="193" font-size="17" font-weight="900" fill="#0f172a">6.82 inch AMOLED</text>
+</g>
+
+<g font-family="Inter,Arial,sans-serif">
+<text x="58" y="70" font-size="20" font-weight="900" fill="#0f172a" opacity=".78">OPPO</text>
+<text x="58" y="99" font-size="16" font-weight="800" fill="#64748b">Flagship • 2026</text>
+<text x="450" y="660" text-anchor="middle" font-size="28" font-weight="900" fill="#0f172a">OPPO Find X9 Ultra</text>
+<text x="450" y="696" text-anchor="middle" font-size="18" font-weight="800" fill="#64748b">Mulai Rp19,5 jt</text>
+</g>
+</svg>

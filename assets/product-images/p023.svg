@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="760" viewBox="0 0 900 760">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff7ed"/><stop offset="0.55" stop-color="#ffffff"/><stop offset="1" stop-color="#ffedd5"/></linearGradient>
+<linearGradient id="screenXiaomi" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#111827"/><stop offset="0.55" stop-color="#f97316"/><stop offset="1" stop-color="#facc15"/></linearGradient>
+<linearGradient id="shine" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="0.45" stop-color="#ffffff" stop-opacity=".26"/><stop offset="1" stop-color="#000000" stop-opacity=".18"/></linearGradient>
+<filter id="shadow" x="-35%" y="-35%" width="180%" height="185%"><feDropShadow dx="0" dy="34" stdDeviation="26" flood-color="#0f172a" flood-opacity="0.28"/></filter>
+<filter id="shadowSoft" x="-35%" y="-35%" width="180%" height="185%"><feDropShadow dx="0" dy="28" stdDeviation="22" flood-color="#0f172a" flood-opacity="0.20"/></filter>
+</defs>
+<rect width="900" height="760" fill="url(#bg)"/>
+<circle cx="760" cy="118" r="165" fill="#f97316" opacity="0.13"/>
+<circle cx="126" cy="642" r="215" fill="#fb923c" opacity="0.12"/>
+<path d="M80 96 C210 16, 318 84, 444 44 S682 48, 826 12" fill="none" stroke="#f97316" stroke-opacity=".14" stroke-width="42" stroke-linecap="round"/>
+<rect x="62" y="586" width="220" height="38" rx="19" fill="#ffffff" opacity=".65"/>
+<rect x="74" y="638" width="160" height="18" rx="9" fill="#f97316" opacity=".20"/>
+<rect x="688" y="594" width="120" height="18" rx="9" fill="#111827" opacity=".08"/>
+<rect x="290" y="118" width="230" height="420" rx="30" fill="#fb7185" filter="url(#shadowSoft)" stroke="#cbd5e1" stroke-width="3"/><rect x="302" y="130" width="206" height="396" rx="20" fill="url(#shine)" opacity="0.22" /><rect x="308.4" y="151.6" width="165.6" height="75.6" rx="22" fill="#020617" opacity="0.82" /><circle cx="333.7" cy="189.4" r="10.35" fill="#020617"/><circle cx="333.7" cy="189.4" r="6.002999999999999" fill="#111827"/><circle cx="331.837" cy="187.12300000000002" r="1.8629999999999998" fill="#ffffff" opacity="0.68"/><circle cx="335.77" cy="191.677" r="2.898" fill="#f97316" opacity="0.55"/><circle cx="377.4" cy="189.4" r="10.35" fill="#020617"/><circle cx="377.4" cy="189.4" r="6.002999999999999" fill="#111827"/><circle cx="375.537" cy="187.12300000000002" r="1.8629999999999998" fill="#ffffff" opacity="0.68"/><circle cx="379.46999999999997" cy="191.677" r="2.898" fill="#f97316" opacity="0.55"/><circle cx="421.1" cy="189.4" r="10.35" fill="#020617"/><circle cx="421.1" cy="189.4" r="6.002999999999999" fill="#111827"/><circle cx="419.237" cy="187.12300000000002" r="1.8629999999999998" fill="#ffffff" opacity="0.68"/><circle cx="423.17" cy="191.677" r="2.898" fill="#f97316" opacity="0.55"/><line x1="405.0" y1="138" x2="405.0" y2="518" stroke="#ffffff" stroke-opacity=".13" stroke-width="5"/><rect x="372" y="136" width="270" height="420" rx="32" fill="#020617" filter="url(#shadow)" stroke="#e2e8f0" stroke-width="3"/><rect x="384" y="148" width="246" height="396" rx="24" fill="url(#screenXiaomi)" /><line x1="507" y1="154" x2="507" y2="538" stroke="#ffffff" stroke-opacity=".16" stroke-width="5"/><rect x="610" y="176" width="118" height="340" rx="28" fill="#020617" filter="url(#shadowSoft)" stroke="#cbd5e1" stroke-width="3"/><rect x="619" y="186" width="100" height="320" rx="22" fill="url(#screenXiaomi)" />
+<g font-family="Inter,Arial,sans-serif" opacity=".90">
+<rect x="640" y="80" width="198" height="74" rx="24" fill="#ffffff" opacity=".72"/>
+<text x="666" y="112" font-size="14" font-weight="900" fill="#475569">CAMERA</text>
+<text x="666" y="137" font-size="17" font-weight="900" fill="#0f172a">50MP + 50MP + 50MP</text>
+<rect x="64" y="136" width="198" height="74" rx="24" fill="#ffffff" opacity=".72"/>
+<text x="90" y="168" font-size="14" font-weight="900" fill="#475569">DISPLAY</text>
+<text x="90" y="193" font-size="17" font-weight="900" fill="#0f172a">8.03 inch Foldable L</text>
+</g>
+
+<g font-family="Inter,Arial,sans-serif">
+<text x="58" y="70" font-size="20" font-weight="900" fill="#0f172a" opacity=".78">Xiaomi</text>
+<text x="58" y="99" font-size="16" font-weight="800" fill="#64748b">Flagship • 2026</text>
+<text x="450" y="660" text-anchor="middle" font-size="28" font-weight="900" fill="#0f172a">Xiaomi Mix Flip 2</text>
+<text x="450" y="696" text-anchor="middle" font-size="18" font-weight="800" fill="#64748b">Mulai Rp17,0 jt</text>
+</g>
+</svg>

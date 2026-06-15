@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="760" viewBox="0 0 900 760">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#eef2ff"/><stop offset="0.55" stop-color="#ffffff"/><stop offset="1" stop-color="#ddd6fe"/></linearGradient>
+<linearGradient id="screenVivo" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#111827"/><stop offset="0.55" stop-color="#6366f1"/><stop offset="1" stop-color="#22d3ee"/></linearGradient>
+<linearGradient id="shine" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="0.45" stop-color="#ffffff" stop-opacity=".26"/><stop offset="1" stop-color="#000000" stop-opacity=".18"/></linearGradient>
+<filter id="shadow" x="-35%" y="-35%" width="180%" height="185%"><feDropShadow dx="0" dy="34" stdDeviation="26" flood-color="#0f172a" flood-opacity="0.28"/></filter>
+<filter id="shadowSoft" x="-35%" y="-35%" width="180%" height="185%"><feDropShadow dx="0" dy="28" stdDeviation="22" flood-color="#0f172a" flood-opacity="0.20"/></filter>
+</defs>
+<rect width="900" height="760" fill="url(#bg)"/>
+<circle cx="760" cy="118" r="165" fill="#6366f1" opacity="0.13"/>
+<circle cx="126" cy="642" r="215" fill="#8b5cf6" opacity="0.12"/>
+<path d="M80 96 C210 16, 318 84, 444 44 S682 48, 826 12" fill="none" stroke="#6366f1" stroke-opacity=".14" stroke-width="42" stroke-linecap="round"/>
+<rect x="62" y="586" width="220" height="38" rx="19" fill="#ffffff" opacity=".65"/>
+<rect x="74" y="638" width="160" height="18" rx="9" fill="#6366f1" opacity=".20"/>
+<rect x="688" y="594" width="120" height="18" rx="9" fill="#111827" opacity=".08"/>
+<rect x="260" y="118" width="225" height="455" rx="42" fill="#312e81" filter="url(#shadowSoft)" stroke="#cbd5e1" stroke-width="3"/><rect x="272" y="130" width="201" height="431" rx="32" fill="url(#shine)" opacity="0.24" /><circle cx="372.5" cy="209.0" r="36.0" fill="#020617" opacity="0.84"/><circle cx="372.5" cy="196.625" r="9.674999999999999" fill="#020617"/><circle cx="372.5" cy="196.625" r="5.611499999999999" fill="#111827"/><circle cx="370.7585" cy="194.4965" r="1.7414999999999998" fill="#ffffff" opacity="0.68"/><circle cx="374.435" cy="198.7535" r="2.709" fill="#6366f1" opacity="0.55"/><circle cx="383.2170643718324" cy="215.1875" r="9.674999999999999" fill="#020617"/><circle cx="383.2170643718324" cy="215.1875" r="5.611499999999999" fill="#111827"/><circle cx="381.47556437183243" cy="213.059" r="1.7414999999999998" fill="#ffffff" opacity="0.68"/><circle cx="385.1520643718324" cy="217.316" r="2.709" fill="#6366f1" opacity="0.55"/><circle cx="361.7829356281676" cy="215.1875" r="9.674999999999999" fill="#020617"/><circle cx="361.7829356281676" cy="215.1875" r="5.611499999999999" fill="#111827"/><circle cx="360.0414356281676" cy="213.059" r="1.7414999999999998" fill="#ffffff" opacity="0.68"/><circle cx="363.7179356281676" cy="217.316" r="2.709" fill="#6366f1" opacity="0.55"/><rect x="309.5" y="277.25" width="126.00000000000001" height="36.4" rx="18" fill="#ffffff" opacity="0.15" /><circle cx="323.0" cy="295.45000000000005" r="3.825" fill="#60a5fa" opacity="0.9"/><rect x="440" y="150" width="207.0" height="418.6" rx="36" fill="#020617" filter="url(#shadow)" stroke="#e2e8f0" stroke-width="3"/><rect x="448" y="158" width="191.0" height="402.6" rx="28" fill="#f8fafc" /><rect x="458" y="178" width="171.0" height="360.6" rx="22" fill="url(#screenVivo)" /><circle cx="543.5" cy="175.9532" r="4.553999999999999" fill="#020617" opacity="0.85"/><path d="M482 451.392 C497.96000000000004 388.602, 568.34 509.99600000000004, 607.0 417.904" fill="none" stroke="#ffffff" stroke-opacity=".5" stroke-width="6" stroke-linecap="round"/><circle cx="487.61" cy="267.208" r="26.91" fill="#ffffff" opacity=".18"/><circle cx="589.04" cy="325.812" r="37.26" fill="#ffffff" opacity=".12"/>
+<g font-family="Inter,Arial,sans-serif" opacity=".90">
+<rect x="640" y="80" width="198" height="74" rx="24" fill="#ffffff" opacity=".72"/>
+<text x="666" y="112" font-size="14" font-weight="900" fill="#475569">CAMERA</text>
+<text x="666" y="137" font-size="17" font-weight="900" fill="#0f172a">200MP + 50MP + 50MP Ze</text>
+<rect x="64" y="136" width="198" height="74" rx="24" fill="#ffffff" opacity=".72"/>
+<text x="90" y="168" font-size="14" font-weight="900" fill="#475569">DISPLAY</text>
+<text x="90" y="193" font-size="17" font-weight="900" fill="#0f172a">6.78 inch AMOLED</text>
+</g>
+
+<g font-family="Inter,Arial,sans-serif">
+<text x="58" y="70" font-size="20" font-weight="900" fill="#0f172a" opacity=".78">Vivo</text>
+<text x="58" y="99" font-size="16" font-weight="800" fill="#64748b">Flagship • 2025</text>
+<text x="450" y="660" text-anchor="middle" font-size="28" font-weight="900" fill="#0f172a">Vivo X200 Ultra</text>
+<text x="450" y="696" text-anchor="middle" font-size="18" font-weight="800" fill="#64748b">Mulai Rp17,5 jt</text>
+</g>
+</svg>
