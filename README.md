@@ -27,7 +27,7 @@ ePhone adalah platform e-commerce smartphone berbasis web yang dibangun di atas 
 | Database | MySQL 8.0 |
 | Backend | PHP (Native, RESTful API) |
 | Frontend | HTML5 · CSS3 · Vanilla JavaScript |
-| Tooling | XAMPP / Laragon |
+| Tooling | XAMPP |
 
 ---
 
