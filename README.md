@@ -33,7 +33,7 @@ ePhone adalah platform e-commerce smartphone berbasis web yang dibangun di atas 
 
 ## 🗄️ Database Architecture
 
-Database `ephone` terdiri dari **15 tabel** dengan desain yang mencakup:
+Database `ephone` terdiri dari **19 tabel** dengan desain yang mencakup:
 
 ### Core Tables
 | Tabel | Deskripsi |
