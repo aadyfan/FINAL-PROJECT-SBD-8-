@@ -144,7 +144,7 @@ ephone/
 ## ⚙️ Setup & Installation
 
 ### Prerequisites
-- XAMPP / Laragon (Apache + MySQL + PHP)
+- XAMPP (Apache + MySQL + PHP)
 - MySQL 8.0+
 - Browser modern
 
@@ -160,9 +160,6 @@ cd FINAL-PROJECT-SBD-8-
 ```bash
 # XAMPP
 cp -r . /xampp/htdocs/ephone/
-
-# Laragon
-cp -r . /laragon/www/ephone/
 ```
 
 **3. Import database**
