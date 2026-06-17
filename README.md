@@ -3,6 +3,10 @@
 <div class="flex justify-center items-center">
   <img src="Preview.png" alt="Preview of The Website">
 </div>
+
+
+alian bisa mengakses lewat 👉 **[e-phone.my.id](https://e-phone.my.id)**
+
 > Final Project — Sistem Basis Data (SBD) · Institut Teknologi Sepuluh Nopember (ITS)
 
 ePhone adalah platform e-commerce smartphone berbasis web yang dibangun di atas **MySQL** dengan arsitektur database yang dirancang untuk mensimulasikan sistem transaksi nyata: manajemen produk, checkout multi-metode pembayaran, voucher diskon otomatis, manajemen stok via trigger, hingga laporan penjualan.
