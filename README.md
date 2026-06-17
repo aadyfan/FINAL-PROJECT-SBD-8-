@@ -5,7 +5,7 @@
 </div>
 
 
-alian bisa mengakses lewat 👉 **[e-phone.my.id](https://e-phone.my.id)**
+Kalian bisa mengakses lewat 👉 **[e-phone.my.id](https://e-phone.my.id)**
 
 > Final Project — Sistem Basis Data (SBD) · Institut Teknologi Sepuluh Nopember (ITS)
 
