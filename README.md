@@ -1,5 +1,8 @@
 # 📱 ePhone — E-Commerce Smartphone Platform
 
+<div class="flex justify-center items-center">
+  <img src="Preview.png" alt="Preview of The Website">
+</div>
 > Final Project — Sistem Basis Data (SBD) · Institut Teknologi Sepuluh Nopember (ITS)
 
 ePhone adalah platform e-commerce smartphone berbasis web yang dibangun di atas **MySQL** dengan arsitektur database yang dirancang untuk mensimulasikan sistem transaksi nyata: manajemen produk, checkout multi-metode pembayaran, voucher diskon otomatis, manajemen stok via trigger, hingga laporan penjualan.
@@ -20,7 +23,7 @@ ePhone adalah platform e-commerce smartphone berbasis web yang dibangun di atas 
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -31,7 +34,7 @@ ePhone adalah platform e-commerce smartphone berbasis web yang dibangun di atas 
 
 ---
 
-## 🗄️ Database Architecture
+##  Database Architecture
 
 Database `ephone` terdiri dari **19 tabel** dengan desain yang mencakup:
 
@@ -87,7 +90,7 @@ Dibuat pada kolom `brand_id`, `category_id`, `release_year`, `product_id`, `colo
 
 ---
 
-## ✨ Features
+##  Features
 
 **Customer**
 - Browsing katalog produk dengan filter brand & kategori
@@ -105,13 +108,13 @@ Dibuat pada kolom `brand_id`, `category_id`, `release_year`, `product_id`, `colo
 
 ---
 
-## 🗺️ ERD
+## ERD
 
 ![ERD ePhone](ERD%20E-Phone.drawio.png)
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 ephone/
@@ -141,7 +144,7 @@ ephone/
 
 ---
 
-## ⚙️ Setup & Installation
+##  Setup & Installation
 
 ### Prerequisites
 - XAMPP (Apache + MySQL + PHP)
@@ -202,7 +205,7 @@ http://localhost/ephone/
 
 ---
 
-## 🔌 API Endpoints
+##  API Endpoints
 
 | Method | Endpoint | Fungsi |
 |---|---|---|
@@ -271,11 +274,14 @@ ORDER BY total_spending DESC;
 
 ---
 
-## 👥 Team
+## Team
 
 | Nama | NRP |
 |---|---|
 | Abhista Athallah Dyfan | 5027251006 |
+| Asfia Fahmisan | 5027251043 |
+| Muhammad Rifqi Fathurrahman | 5027251029 |
+| Ndaru Satria Tama | 5027251124 | 
 
 **Mata Kuliah:** Sistem Basis Data (SBD)  
 **Institusi:** Institut Teknologi Sepuluh Nopember (ITS) Surabaya  
@@ -284,6 +290,6 @@ ORDER BY total_spending DESC;
 
 ---
 
-## 📄 License
+##  License
 
 Project ini dibuat untuk keperluan akademis Final Project Sistem Basis Data ITS 2026.
